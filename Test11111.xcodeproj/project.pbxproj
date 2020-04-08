@@ -14,6 +14,9 @@
 		2CD6DC202437587E0088E919 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CD6DC1F2437587E0088E919 /* Assets.xcassets */; };
 		2CD6DC232437587E0088E919 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD6DC212437587E0088E919 /* LaunchScreen.storyboard */; };
 		2CD6DC262437587E0088E919 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD6DC252437587E0088E919 /* main.m */; };
+		2CD6DC3A24376C240088E919 /* FFProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD6DC3924376C240088E919 /* FFProxy.m */; };
+		2CD6DC3D24376CBF0088E919 /* FFWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD6DC3C24376CBF0088E919 /* FFWeakProxy.m */; };
+		2CD6DC4024376EBB0088E919 /* AAAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD6DC3F24376EBB0088E919 /* AAAViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,12 @@
 		2CD6DC222437587E0088E919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CD6DC242437587E0088E919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CD6DC252437587E0088E919 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CD6DC3824376C240088E919 /* FFProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFProxy.h; sourceTree = "<group>"; };
+		2CD6DC3924376C240088E919 /* FFProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFProxy.m; sourceTree = "<group>"; };
+		2CD6DC3B24376CBF0088E919 /* FFWeakProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFWeakProxy.h; sourceTree = "<group>"; };
+		2CD6DC3C24376CBF0088E919 /* FFWeakProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFWeakProxy.m; sourceTree = "<group>"; };
+		2CD6DC3E24376EBB0088E919 /* AAAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAAViewController.h; sourceTree = "<group>"; };
+		2CD6DC3F24376EBB0088E919 /* AAAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAAViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +76,12 @@
 				2CD6DC172437587C0088E919 /* SceneDelegate.m */,
 				2CD6DC192437587C0088E919 /* ViewController.h */,
 				2CD6DC1A2437587C0088E919 /* ViewController.m */,
+				2CD6DC3E24376EBB0088E919 /* AAAViewController.h */,
+				2CD6DC3F24376EBB0088E919 /* AAAViewController.m */,
+				2CD6DC3824376C240088E919 /* FFProxy.h */,
+				2CD6DC3924376C240088E919 /* FFProxy.m */,
+				2CD6DC3B24376CBF0088E919 /* FFWeakProxy.h */,
+				2CD6DC3C24376CBF0088E919 /* FFWeakProxy.m */,
 				2CD6DC1C2437587C0088E919 /* Main.storyboard */,
 				2CD6DC1F2437587E0088E919 /* Assets.xcassets */,
 				2CD6DC212437587E0088E919 /* LaunchScreen.storyboard */,
@@ -146,9 +161,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CD6DC4024376EBB0088E919 /* AAAViewController.m in Sources */,
+				2CD6DC3A24376C240088E919 /* FFProxy.m in Sources */,
 				2CD6DC1B2437587C0088E919 /* ViewController.m in Sources */,
 				2CD6DC152437587C0088E919 /* AppDelegate.m in Sources */,
 				2CD6DC262437587E0088E919 /* main.m in Sources */,
+				2CD6DC3D24376CBF0088E919 /* FFWeakProxy.m in Sources */,
 				2CD6DC182437587C0088E919 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
